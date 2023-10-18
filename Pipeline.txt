@@ -1,0 +1,14 @@
+Pipeline
+{
+   agentany
+     stages
+{
+     stage('Check validate')
+{
+      steps
+{
+       echo 'I am validating the code'
+}
+}
+}
+}
